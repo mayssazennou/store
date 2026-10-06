@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: store
+
+logging:
+    level:
+        org:
+            springframework: error
+
+stripe:
+    apiUrl: https://api.stripe.com
+    enabled: true
+    timeout: 1000
+    supported-currencies: MAD, EUR, USD
