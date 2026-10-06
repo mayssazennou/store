@@ -1,0 +1,17 @@
+package com.example.store;
+
+import org.springframework.stereotype.Service;
+
+@Service 
+public class NotificationManager {
+    
+    private final NotificationService notificationService;
+
+    public NotificationManager(NotificationService notifService) {
+        notificationService = notifService;
+    }
+
+    public void sendNotification(String message) {
+        notificationService.send(message);
+    }
+}
