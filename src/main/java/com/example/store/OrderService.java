@@ -3,7 +3,7 @@ package com.example.store;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-@Service 
+// @Service 
 public class OrderService {
 
     PaymentService paymentService;

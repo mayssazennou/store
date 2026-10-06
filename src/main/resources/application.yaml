@@ -12,3 +12,5 @@ stripe:
     enabled: true
     timeout: 1000
     supported-currencies: MAD, EUR, USD
+
+payment-gateway: paypal
