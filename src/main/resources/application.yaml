@@ -14,3 +14,7 @@ stripe:
     supported-currencies: MAD, EUR, USD
 
 payment-gateway: paypal
+
+mail-server:
+    host: https://smtp.gmail.com
+    port: 45
